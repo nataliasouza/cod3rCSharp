@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.EstruturasDeControle
 {
-    class Switch
+    class EstruturaSwitch
     {
         public static void Executar()
         {
