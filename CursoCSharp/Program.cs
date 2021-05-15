@@ -36,6 +36,7 @@ namespace CursoCSharp {
                 {"Estrutura For - Estrutura de Repetição", EstruturaFor.Executar},
                 {"Estrutura ForEach - Estrutura de Repetição", EstruturaForEach.Executar},
                 {"Usando Break - Estrutura de Repetição", UsandoBreak.Executar},
+                {"Usando Continue - Estrutura de Repetição", UsandoContinue.Executar},
 
             });
 
