@@ -34,7 +34,7 @@ namespace CursoCSharp.EstruturasDeControle
                 }
 
                 double media = tamanhoTurma > 0 ? somatorio / tamanhoTurma : 0;
-                Console.WriteLine("Média da Turma: {0}", media);
+                Console.WriteLine("\nMédia da Turma: {0}", media);
 
             }
         }
