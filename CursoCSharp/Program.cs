@@ -40,10 +40,12 @@ namespace CursoCSharp {
                 {"Usando Continue - Estrutura de Repetição", UsandoContinue.Executar},
 
                 // Classes e Métodos
-                {"Membros - Classes e Metodos", Membros.Executar},
-                {"Construtores - Classes e Metodos", Construtores.Executar},
-                {"Metodos Com Retorno - Classes e Metodos", MetodosComRetorno.Executar},
-                {"Metodos Estáticos - Classes e Metodos", MetodosEstaticos.Executar},
+                {"Membros - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"Métodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Métodos Estáticos - Classes e Métodos", MetodosEstaticos.Executar},
+                {"Desafio Atributos - Classes e Métodos", DesafioAtributo.Executar},
+                {"Params - Classes e Métodos", Params.Executar},
             });
 
             central.SelecionarEExecutar();

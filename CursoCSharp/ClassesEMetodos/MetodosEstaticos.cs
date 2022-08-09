@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
@@ -24,11 +20,10 @@ namespace CursoCSharp.ClassesEMetodos
         public static void Executar()
         {
             var resultado = CalculadoraEstatica.Multiplicar(2, 2);
-            Console.WriteLine("Resultado: {0}", resultado);
+            Console.WriteLine("Resultado da Multiplicação: {0}", resultado);
 
             CalculadoraEstatica calc = new CalculadoraEstatica();
-            Console.WriteLine(calc.Somar(2,2));
-            Console.WriteLine(CalculadoraEstatica.Multiplicar(2,2));
+            Console.WriteLine("Resultado da Soma: " + calc.Somar(2, 2));
         }
     }
 }
